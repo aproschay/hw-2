@@ -8,13 +8,13 @@ alert(a);
 
 /*ЗАДАНИЕ 2
 
-let firstiPhoneYear = (' 2007');
+const firstiPhoneYear = (' 2007');
 alert('Год выпуска первого Iphone:' + firstiPhoneYear);
 */
 
 /*ЗАДАНИЕ 3
 
-let nameCreator = (' Брендан Эйх');
+const nameCreator = (' Брендан Эйх');
 alert(nameCreator)
 */
 
@@ -48,9 +48,10 @@ num += 5;
 num -= 3;
 num *= 7;
 num /= 3;
-num += 1;
-num -= 1;
-alert(num);*/
+num++;
+num--;
+alert(num);
+*/
 
 /*ЗАДАНИЕ 8
 
