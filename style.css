@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.background_img {
+  height: 1024px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000915 100%), url(<path-to-image>), lightgray 50%/cover no-repeat;
+  background-image: url(img/Rectangle\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.text {
+  display: flex;
+  height: 126px;
+  width: 789px;
+  justify-content: center;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 70px;
+  color: #ffffff;
+  max-width: 792px;
+  padding-top: 218px;
+  padding-bottom: 32px;
+}
+
+.paragraph {
+  color: #FFF;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 300;
+  line-height: 32px;
+  display: flex;
+  width: 481px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.box {
+  padding-top: 44px;
+}
+.box_button {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 235px;
+  height: 49px;
+  background-color: #9C0332;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  transition: all 0.3s;
+}
+
+.footer_box {
+  gap: 32px;
+  background-color: #000915;
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  padding-bottom: 128px;
+}
+.footer_content {
+  display: flex;
+  gap: 32px;
+}
+.footer_img {
+  width: 379px;
+  height: 300px;
+  gap: 32px;
+  margin-top: 128px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.footer_img_1 {
+  background-image: url(./img/Rectangle\ 6.png);
+  grid-column: span 4;
+}
+.footer_img_2 {
+  background-image: url(./img/Rectangle\ 7.png);
+  grid-column: span 4;
+}
+.footer_img_3 {
+  background-image: url(./img/Rectangle\ 8.png);
+  grid-column: span 4;
+}/*# sourceMappingURL=style.css.map */
