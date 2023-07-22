@@ -1,0 +1,32 @@
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 393px);
+        padding-right: calc(50% - 393px);
+    }
+
+    .text {
+        font-size: 40px;
+        line-height: 59px;
+        text-align: center;
+        margin-top: 47px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .paragraph {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 60px;
+        padding-right: 60px;
+        text-align: center;
+    }
+
+    .box {
+        display: flex;
+        justify-content: center;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
